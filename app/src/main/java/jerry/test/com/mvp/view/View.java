@@ -8,4 +8,5 @@ public interface View {
     public void Show();
     public void Hide();
     public void Update();
+    public void Destory();
 }
