@@ -64,4 +64,9 @@ public class Login extends MainActivity implements View{
     public void Update() {
 
     }
+
+    @Override
+    public void Destory() {
+
+    }
 }
