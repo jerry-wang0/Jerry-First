@@ -5,4 +5,7 @@ package jerry.test.com.mvp.view;
  */
 
 public interface View {
+    public void Show();
+    public void Hide();
+    public void Update();
 }
