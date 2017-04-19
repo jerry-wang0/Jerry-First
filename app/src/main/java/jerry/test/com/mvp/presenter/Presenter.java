@@ -5,4 +5,8 @@ package jerry.test.com.mvp.presenter;
  */
 
 public interface Presenter {
+    public void Create();
+    public void Resume();
+    public void Pause();
+    public void Destroy();
 }
