@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="jerry.test.com.mvp">
+
+    <uses-permission
+        android:name="android.permission.SET_PREFERRED_APPLICATIONS"
+        tools:ignore="ProtectedPermissions" />
 
     <application
         android:allowBackup="true"
@@ -9,7 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="jerry.test.com.jerry.test.com.mvp.MainActivity">
+        <activity android:name="jerry.test.com.mvp.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
