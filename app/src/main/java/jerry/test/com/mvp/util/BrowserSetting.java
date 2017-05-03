@@ -8,6 +8,7 @@ import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
+import android.util.Log;
 
 import java.util.List;
 
@@ -48,6 +49,7 @@ public class BrowserSetting {
         //find all browsers
         List<ResolveInfo> resolveInfoList = packageManager.queryIntentActivities(intent, PackageManager.GET_RESOLVED_FILTER);
         int size = resolveInfoList.size();
+        Log.v("BrowserSetting","size:===="+size);
         ComponentName[] arrayOfCompnentName = new ComponentName[size];
         for (int i = 0; i < size; i++) {
             ActivityInfo activityInfo = resolveInfoList.get(i).activityInfo;

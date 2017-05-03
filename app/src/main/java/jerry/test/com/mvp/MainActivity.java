@@ -9,6 +9,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 import jerry.test.com.mvp.R;
+import jerry.test.com.mvp.util.BrowserSetting;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        new BrowserSetting().setDefaultBrowser(getApplicationContext());
     }
 
     @Override
