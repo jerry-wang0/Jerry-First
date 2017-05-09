@@ -12,6 +12,8 @@ import android.util.Log;
 
 import java.util.List;
 
+import jerry.test.com.mvp.MainActivity;
+
 import static android.content.pm.PackageManager.GET_INTENT_FILTERS;
 
 /**
@@ -35,19 +37,19 @@ public class BrowserSetting {
         filter.addCategory(str1);
         filter.addCategory(str2);
         filter.addDataScheme("http");
-        filter.addDataScheme("https");
+        //filter.addDataScheme("https");
         //intent
         Intent intent = new Intent(str3);
         intent.addCategory(str1);
         intent.addCategory(str2);
         Uri uri1 = Uri.parse("http://");
-        Uri uri2 = Uri.parse("https://");
+        //Uri uri2 = Uri.parse("https://");
         intent.setDataAndType(uri1, null);
-        intent.setDataAndType(uri2, null);
+        //intent.setDataAndType(uri2, null);
         //set our browser to the default
-        ComponentName component = new ComponentName("jerry.test.com.mvp", "jerry.test.com.mvp.MainActivity");
+        ComponentName component = new ComponentName(context.getPackageName(), this.getClass().getName());
         //find all browsers
-        List<ResolveInfo> resolveInfoList = packageManager.queryIntentActivities(intent, PackageManager.GET_RESOLVED_FILTER);
+        List<ResolveInfo> resolveInfoList = packageManager.queryIntentActivities(intent, PackageManager.GET_INTENT_FILTERS);
         int size = resolveInfoList.size();
         Log.v("BrowserSetting","size:===="+size);
         ComponentName[] arrayOfCompnentName = new ComponentName[size];
