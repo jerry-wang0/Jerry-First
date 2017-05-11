@@ -51,7 +51,7 @@
 //     * @param kuchisuHandler
 //     */
 //    public void refreshKuchisu(String accessToken, String ref,
-//                               final ReponseHandler kuchisuHandler) {
+//                               final DataReponseHandler Handler) {
 //
 //        final MyHttpClient client = new MyHttpClient(MyHttpClient.Method.post,
 //                MyHttpClient.Scheme.https, KUCHISU_SERVER_HOSTNAME, REFER_KUCHISU_URI);
@@ -69,16 +69,16 @@
 //
 //                updateKuchisuData(decode(responseString));
 //                if (getKuchisu().getStatus() == TestData.StatusCode.OK) {
-//                    kuchisuHandler.onSuccess(getKuchisu());
+//                    Handler.onDataSuccess(getKuchisu());
 //                } else {
-//                    kuchisuHandler.onFailed(getKuchisu().getStatus());
+//                    Handler.onDataFailed(getKuchisu().getStatus());
 //                }
 //            }
 //
 //            @Override
 //            public void onFailed(String responseString) {
 //                Logger.d(TAG, "onFailed");
-//                kuchisuHandler.onFailed(TestData.StatusCode.UNCONNECT_TO_SERVER);
+//                Handler.onDataFailed(TestData.StatusCode.UNCONNECT_TO_SERVER);
 //            }
 //        });
 //    }
@@ -91,7 +91,7 @@
 //     * @param kuchisuHandler
 //     */
 //    public void acquireKuchisu(final String accessToken, final String keyword, final String ref,
-//                               final ReponseHandler kuchisuHandler) {
+//                               final DataReponseHandler Handler) {
 //        final MyHttpClient client = new MyHttpClient(MyHttpClient.Method.get,
 //                MyHttpClient.Scheme.https, KUCHISU_SERVER_HOSTNAME, WEB_SEARCH_PATH);
 //
@@ -109,13 +109,13 @@
 //                Logger.d(TAG, "onSuccess");
 //                Logger.d(TAG, "response :" + responseString);
 //                updateKuchisuData(decode(responseString));
-//                kuchisuHandler.onSuccess(getKuchisu());
+//                Handler.onDataSuccess(getKuchisu());
 //            }
 //
 //            @Override
 //            public void onFailed(String responseString) {
 //                Logger.d(TAG, "onFailed");
-//                kuchisuHandler.onFailed(TestData.StatusCode.UNCONNECT_TO_SERVER);
+//                Handler.onDataFailed(TestData.StatusCode.UNCONNECT_TO_SERVER);
 //            }
 //        });
 //    }
