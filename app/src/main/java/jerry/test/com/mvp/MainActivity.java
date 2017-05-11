@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import jerry.test.com.mvp.R;
 import jerry.test.com.mvp.util.BrowserSetting;
 
 public class MainActivity extends AppCompatActivity {
