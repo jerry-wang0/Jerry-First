@@ -3,12 +3,12 @@ package jerry.test.com.mvp;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.Socket;
 
-import jerry.test.com.mvp.R;
 import jerry.test.com.mvp.util.BrowserSetting;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,7 +26,12 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        new BrowserSetting().setDefaultBrowser(getApplicationContext());
+        findViewById(R.id.test).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new BrowserSetting().setDefaultBrowser(getApplicationContext());
+            }
+        });
     }
 
     @Override
