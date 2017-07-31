@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_header_with_title" />
+
+    <cn.nextop.erebor.mid.app.mvc.main.trading.panel.QuoteConsole
+        android:id="@+id/item_trading_place_order_quote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/blue_dark_shadow_bg"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TabLayout
+            style="@style/tabbed_panel_style"
+            android:id="@+id/item_trading_place_order_tabbed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            />
+
+        <cn.nextop.erebor.mid.app.mvc.support.widget.pager.TabIndicator
+            android:id="@+id/item_trading_place_order_tab_indicator"
+            android:layout_below="@+id/item_trading_place_order_tabbed"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="-4dp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/item_trading_place_order_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        >
+        <cn.nextop.erebor.mid.app.mvc.support.widget.pager.PlaceOrderPanelViewPager
+            android:id="@+id/item_trading_place_order_pager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        />
+    </ScrollView>
+
+    <cn.nextop.erebor.mid.app.mvc.support.widget.trading.TradingConsole
+        android:id="@+id/item_trading_place_order_trading_console"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>
