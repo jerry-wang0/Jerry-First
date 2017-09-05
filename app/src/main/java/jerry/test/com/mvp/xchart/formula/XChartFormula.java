@@ -8,9 +8,7 @@ import static com.tictactec.ta.lib.MAType.Ema;
 import static com.tictactec.ta.lib.MAType.Sma;
 import static java.lang.Float.NaN;
 
-/**
- * Created by Jingqi Xu on 9/9/15.
- */
+
 public class XChartFormula {
     //
     private static final Core CORE = new Core();

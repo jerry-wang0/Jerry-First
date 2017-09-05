@@ -13,9 +13,6 @@ import cn.nextop.erebor.mid.common.util.Objects;
 
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.DRAWING_LINE_DOUBLE_SPACE_V;
 
-/**
- * Created by wanggl on 2016/11/29.
- */
 public class XChartPickAction extends AbstractAction {
 
     protected final float x, y;

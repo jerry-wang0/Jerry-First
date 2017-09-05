@@ -3,9 +3,7 @@ package jerry.test.com.mvp.xchart.gesture;
 import android.content.Context;
 import android.view.MotionEvent;
 
-/**
- * Created by Jingqi Xu on 9/2/15.
- */
+
 public class MoveGestureDetector {
     //
     protected static final int INVALID_POINTER_ID = -1;

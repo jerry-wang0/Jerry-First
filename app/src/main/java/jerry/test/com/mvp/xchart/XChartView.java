@@ -24,9 +24,6 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.abs
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.MOVE_TIMEOUT;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.ZOOM_STEP;
 
-/**
- * Created by Jingqi Xu on 8/27/15.
- */
 public class XChartView extends SurfaceView implements SurfaceHolder.Callback {
     //
     protected SurfaceHolder holder;

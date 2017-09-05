@@ -27,9 +27,7 @@ import cn.nextop.erebor.mid.common.util.monitor.MonitorFactory;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.cast;
 import static java.lang.Double.isNaN;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
+
 public abstract class AbstractXPainter implements XChartPainter {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractXPainter.class);

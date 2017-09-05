@@ -13,9 +13,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static java.lang.Double.MAX_VALUE;
 import static java.lang.Double.MIN_VALUE;
 
-/**
- * Created by Jingqi Xu on 9/9/15.
- */
+
 public abstract class AbstractXIndex implements XChartIndex {
     //
     protected static final double[] NULL = new double[0];

@@ -39,9 +39,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.COORDINATE_Y_STEP;
 import static cn.nextop.erebor.mid.common.util.Strings.isEquals;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
+
 public class XFramePainter extends AbstractXPainter {
     //
     protected final Paint paint1 = new Paint();

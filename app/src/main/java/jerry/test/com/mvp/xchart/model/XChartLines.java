@@ -2,9 +2,7 @@ package jerry.test.com.mvp.xchart.model;
 
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.cast;
 
-/**
- * Created by Jingqi Xu on 9/12/15.
- */
+
 public final class XChartLines {
     //
     private int index;

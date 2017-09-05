@@ -7,9 +7,7 @@ import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.adapter.XChartAdapter;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.adapter.XChartContext;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.impl.painter.drawing.XDrawingLine;
 
-/**
- * Created by wanggl on 2016/12/2.
- */
+
 public class XChartRedrawAction extends AbstractAction {
 
     protected List<XDrawingLine> lines = new ArrayList<>();

@@ -92,9 +92,6 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.common.util.Objects.cast;
 import static cn.nextop.erebor.mid.rpc.MobileApiGenerator.getSymbolId;
 
-/**
- * Created by Liqun Wan on 2016/6/9.
- */
 @EFragment(R.layout.widget_pricing_chart)
 public class ChartWidget extends AbstractWidget {
 

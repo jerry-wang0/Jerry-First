@@ -7,9 +7,6 @@ import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.impl.painter.dr
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.impl.painter.drawing.XDrawingSegment;
 import cn.nextop.erebor.mid.common.glossary.chart.XChart;
 
-/**
- * Created by Jingqi Xu on 9/8/15.
- */
 public interface XChartContext {
 
     XChartView getView();

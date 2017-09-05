@@ -34,9 +34,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.INDICATOR_LINE_WIDTH;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.INDICATOR_TEXT_SIZE;
 
-/**
- * Created by Jingqi Xu on 9/16/15.
- */
+
 public class XIkhIndicator extends AbstractXIndicator {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(XIkhIndicator.class);

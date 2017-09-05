@@ -5,9 +5,6 @@ import java.util.Comparator;
 import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 import cn.nextop.erebor.mid.common.util.Comparators;
 
-/**
- * Created by Jingqi Xu on 9/8/15.
- */
 public interface XIndicatorConfig {
 
     /**

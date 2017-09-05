@@ -27,9 +27,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.INDICATOR_LINE_WIDTH;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.INDICATOR_TEXT_SIZE;
 
-/**
- * Created by Jingqi Xu on 9/7/15.
- */
+
 public class XSmaIndicator extends AbstractXIndicator {
     //
     protected final Paint paint0 = new Paint();

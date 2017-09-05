@@ -5,9 +5,7 @@ import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.adapter.XChartContext;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartConfig;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
+
 public class XChartSetupAction extends AbstractAction {
     //
     protected final XChartTheme theme;

@@ -5,9 +5,7 @@ import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 
 import static java.lang.Double.NaN;
 
-/**
- * Created by Jingqi Xu on 9/9/15.
- */
+
 public class XKdjIndex extends AbstractXIndex {
     //
     private double[] line0 = NULL; // FastK

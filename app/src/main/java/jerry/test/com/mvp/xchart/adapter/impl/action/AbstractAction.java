@@ -9,9 +9,7 @@ import cn.nextop.erebor.mid.common.util.Maps;
 import cn.nextop.erebor.mid.common.util.Strings;
 import cn.nextop.erebor.mid.common.util.collection.map.LongHashMap;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
+
 public abstract class AbstractAction implements XChartAction {
     //
     protected final Type type;

@@ -32,9 +32,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static java.lang.Double.isNaN;
 import static java.lang.Float.NaN;
 
-/**
- * Created by Jingqi Xu on 9/10/15.
- */
+
 public class XDmiIndicator extends AbstractXIndicator {
     //
     protected final Paint paint0 = new Paint();

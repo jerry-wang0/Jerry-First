@@ -2,9 +2,7 @@ package jerry.test.com.mvp.xchart.model;
 
 import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 
-/**
- * Created by Jingqi Xu on 9/8/15.
- */
+
 public interface XChartIndex {
 
     float getUnit();

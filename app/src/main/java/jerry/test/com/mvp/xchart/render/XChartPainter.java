@@ -8,9 +8,7 @@ import java.util.Set;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.adapter.XChartContext;
 import cn.nextop.erebor.mid.common.util.Comparators;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
+
 public interface XChartPainter {
 
     /**

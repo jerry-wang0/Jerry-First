@@ -10,9 +10,7 @@ import cn.nextop.erebor.mid.app.mvc.support.ViewConfig;
 import cn.nextop.erebor.mid.app.mvc.support.ViewIdFactory;
 import cn.nextop.erebor.mid.common.glossary.Nullable;
 
-/**
- * Created by Jingqi Xu on 8/3/15.
- */
+
 public class ChartView extends AbstractView {
     //
     public static final View.ID ID = ViewIdFactory.create("view.pricing.chart");

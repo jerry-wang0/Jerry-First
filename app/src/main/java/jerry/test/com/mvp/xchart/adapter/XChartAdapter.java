@@ -46,9 +46,6 @@ import cn.nextop.erebor.mid.common.util.concurrent.thread.StopableThread;
 import static cn.nextop.erebor.mid.common.util.Maps.putIfAbsent;
 import static java.util.concurrent.TimeUnit.NANOSECONDS;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
 public class XChartAdapter extends Lifecyclet implements Runnable {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(XChartAdapter.class);

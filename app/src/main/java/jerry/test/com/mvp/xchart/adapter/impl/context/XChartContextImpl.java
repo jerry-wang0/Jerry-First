@@ -23,9 +23,6 @@ import cn.nextop.erebor.mid.common.util.Objects;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.DRAWING_TOUCH_SENSITIVITY;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.XChartArea.Type;
 
-/**
- * Created by Jingqi Xu on 9/8/15.
- */
 public class XChartContextImpl implements XChartContext {
     //
     private XChartAction action;

@@ -61,9 +61,7 @@ import static java.math.BigDecimal.TEN;
 import static java.math.BigDecimal.ZERO;
 import static java.math.RoundingMode.HALF_UP;
 
-/**
- * Created by Jingqi Xu on 8/3/15.
- */
+
 public class ChartModel extends AbstractModel implements ChartListener, QuoteListener, PositionListener {
     //
     private static final Comparator<Long> DESC = new Comparators.LongComparator(false);

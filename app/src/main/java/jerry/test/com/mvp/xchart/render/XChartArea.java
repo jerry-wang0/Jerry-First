@@ -1,8 +1,6 @@
 package jerry.test.com.mvp.xchart.render;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
+
 public interface XChartArea {
 
     /**

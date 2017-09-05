@@ -5,9 +5,7 @@ import java.io.Serializable;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XIndicatorConfig;
 import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 
-/**
- * Created by Jingqi Xu on 9/14/15.
- */
+
 public abstract class AbstractXConfig implements Serializable, XIndicatorConfig {
     //
     protected int order;

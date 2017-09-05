@@ -12,9 +12,6 @@ import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 import cn.nextop.erebor.mid.common.util.Objects;
 import cn.nextop.erebor.mid.common.util.Strings;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
 public class XChartConfig {
     //
     protected int digits = 3, precision = 6;

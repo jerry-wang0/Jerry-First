@@ -3,9 +3,7 @@ package jerry.test.com.mvp.xchart.formula.impl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * Created by Jingqi Xu on 9/17/15.
- */
+
 public final class IKH {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(IKH.class);

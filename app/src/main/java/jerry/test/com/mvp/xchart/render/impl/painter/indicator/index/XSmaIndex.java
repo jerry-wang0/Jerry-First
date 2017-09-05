@@ -8,9 +8,6 @@ import static java.lang.Double.MIN_VALUE;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 
-/**
- * Created by Jingqi Xu on 9/9/15.
- */
 public class XSmaIndex extends AbstractXIndex {
     //
     private double[] line0 = NULL;

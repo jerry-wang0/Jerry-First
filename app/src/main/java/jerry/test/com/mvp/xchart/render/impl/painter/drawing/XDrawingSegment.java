@@ -12,9 +12,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.DRAWING_PAINTER_NORMAL_COLOR;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.DRAWING_PAINTER_VIRTUAL_COLOR;
 
-/**
- * Created by wanggl on 2016/11/29.
- */
+
 public class XDrawingSegment implements XSegment {
 
     private XChartModel model;
