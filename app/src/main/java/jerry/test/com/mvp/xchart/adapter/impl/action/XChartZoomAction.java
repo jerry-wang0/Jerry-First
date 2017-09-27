@@ -19,9 +19,6 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.rou
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.ZOOM_SPEED;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.ZOOM_STEP;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
 public class XChartZoomAction extends AbstractAction {
     //
     protected final float x;

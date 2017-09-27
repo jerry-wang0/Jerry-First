@@ -9,9 +9,7 @@ import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 import cn.nextop.erebor.mid.common.util.Objects;
 import cn.nextop.erebor.mid.common.util.Strings;
 
-/**
- * Created by Jingqi Xu on 9/16/15.
- */
+
 public class XIkhConfig extends AbstractXConfig implements Copyable<XIkhConfig> {
     //
     private int colors[] = new int[3];

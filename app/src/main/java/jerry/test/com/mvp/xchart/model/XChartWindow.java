@@ -19,9 +19,6 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static java.lang.Double.MAX_VALUE;
 import static java.lang.Double.MIN_VALUE;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
 public class XChartWindow {
     //
     protected int last;

@@ -7,9 +7,7 @@ import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.adapter.XChartContext;
 import cn.nextop.erebor.mid.common.glossary.chart.XChart;
 import cn.nextop.erebor.mid.common.util.Objects;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
+
 public class XChartRefreshAction extends AbstractAction {
     //
     protected final Collection<? extends XChart> charts;

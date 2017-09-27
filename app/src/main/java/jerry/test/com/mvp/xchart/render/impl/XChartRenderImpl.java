@@ -36,9 +36,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.XChartArea.Type.X;
 import static cn.nextop.erebor.mid.common.util.DateTimes.toMillis;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
+
 public class XChartRenderImpl implements XChartRender {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(XChartRenderImpl.class);

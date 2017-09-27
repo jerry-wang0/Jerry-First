@@ -32,9 +32,6 @@ import cn.nextop.erebor.mid.rpc.service.domain.trading.model.result.AddOrderResu
 import cn.nextop.erebor.mid.rpc.service.protobuf.PricingServiceProtoV1;
 import cn.nextop.erebor.mid.rpc.service.protobuf.TradingServiceProtoV1;
 
-/**
- * Created by Liqun Wan on 2016/6/9.
- */
 
 public class ChartController extends AbstractController {
     //

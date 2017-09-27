@@ -3,9 +3,6 @@ package jerry.test.com.mvp.xchart.render.impl.area;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.XChartArea;
 import cn.nextop.erebor.mid.common.util.Strings;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
 public class XChartAreaImpl implements XChartArea {
     //
     protected float marginX, marginY;

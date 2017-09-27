@@ -4,9 +4,6 @@ import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.impl.painter.dr
 import cn.nextop.erebor.mid.common.glossary.chart.ChartScale;
 import cn.nextop.erebor.mid.common.glossary.chart.XChart;
 
-/**
- * Created by Jingqi Xu on 9/5/15.
- */
 public interface XChartListener {
 
     void onCursor(XChartAdapter adapter, XChart chart);

@@ -40,9 +40,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.CURSOR_COLOR;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.CURSOR_WIDTH;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
+
 public class XCursorPainter extends AbstractXPainter {
     //
     protected final Paint paint1 = new Paint();

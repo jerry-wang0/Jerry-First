@@ -14,9 +14,7 @@ import java.util.concurrent.TimeUnit;
 import cn.nextop.erebor.mid.common.glossary.Lifecyclet;
 import cn.nextop.erebor.mid.common.util.concurrent.thread.StopableThread;
 
-/**
- * Created by wanggl on 2016/12/15.
- */
+
 public class XChartViewRedraw extends SurfaceView implements SurfaceHolder.Callback {
 
     protected volatile StopableThread worker;

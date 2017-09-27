@@ -6,9 +6,7 @@ import cn.nextop.erebor.mid.common.glossary.chart.XChart;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.COLOR_LIGHT_GRAY;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.COLOR_YELLOW;
 
-/**
- * Created by wanggl on 2016/11/29.
- */
+
 public class XDrawingDepot {
 
     public boolean highlighted;

@@ -34,9 +34,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.CHART_OHLC_COLOR;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.CHART_OHLC_WIDTH;
 
-/**
- * Created by Jingqi Xu on 8/31/15.
- */
+
 public class XGraphPainter extends AbstractXPainter {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(XGraphPainter.class);

@@ -6,9 +6,7 @@ import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartModel;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartWindow;
 import cn.nextop.erebor.mid.common.util.Objects;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
+
 public class XChartSelectAction extends AbstractAction {
     //
     protected final float x, y;

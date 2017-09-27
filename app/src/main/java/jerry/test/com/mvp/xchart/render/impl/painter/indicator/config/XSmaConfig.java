@@ -9,9 +9,7 @@ import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 import cn.nextop.erebor.mid.common.util.Objects;
 import cn.nextop.erebor.mid.common.util.Strings;
 
-/**
- * Created by Jingqi Xu on 9/8/15.
- */
+
 public class XSmaConfig extends AbstractXConfig implements Copyable<XSmaConfig> {
     //
     private int color;

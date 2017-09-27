@@ -2,9 +2,6 @@ package jerry.test.com.mvp.xchart.model;
 
 import cn.nextop.erebor.mid.common.util.Strings;
 
-/**
- * Created by Jingqi Xu on 9/17/15.
- */
 public class XChartMargin {
     //
     private int size;

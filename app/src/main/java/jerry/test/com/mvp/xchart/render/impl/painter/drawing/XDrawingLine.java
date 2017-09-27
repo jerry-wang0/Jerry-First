@@ -11,9 +11,6 @@ import cn.nextop.erebor.mid.common.glossary.chart.XSegment;
 import static java.math.BigDecimal.ZERO;
 import static java.math.RoundingMode.HALF_UP;
 
-/**
- * Created by wanggl on 2016/11/29.
- */
 public class XDrawingLine implements XSegment {
     protected boolean highlighted;
     protected XChartModel model;

@@ -15,9 +15,7 @@ import cn.nextop.erebor.mid.common.glossary.chart.XChart;
 import cn.nextop.erebor.mid.common.util.DateTimes;
 import cn.nextop.erebor.mid.common.util.assertion.AssertionException;
 
-/**
- * Created by Jingqi Xu on 9/1/15.
- */
+
 public final class XChartUtils {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(XChartUtils.class);

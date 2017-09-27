@@ -26,9 +26,6 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.min
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.round;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.MOVE_SPEED;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
 public class XChartMoveAction extends AbstractAction {
     //
     protected float x,y;

@@ -11,9 +11,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceHolder.Callback;
 import android.view.SurfaceView;
 
-/**
- * Created by wanggl on 2016/12/27.
- */
+
 public class XChartViewS  extends SurfaceView implements Callback {
     protected SurfaceHolder holder;
     private Canvas canvas;

@@ -18,9 +18,6 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.max
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartUtils.min;
 
 
-/**
- * Created by Jingqi Xu on 8/27/15.
- */
 public class XChartModel {
     //
     protected int pivot;

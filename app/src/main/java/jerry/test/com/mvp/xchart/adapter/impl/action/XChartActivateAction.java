@@ -5,9 +5,7 @@ import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.adapter.XChartContext;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartModel;
 import cn.nextop.erebor.mid.common.glossary.chart.XDrawingStyle;
 
-/**
- * Created by wanggl on 2016/11/29.
- */
+
 public class XChartActivateAction extends AbstractAction {
     final XDrawingStyle style;
     /**

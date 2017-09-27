@@ -1,8 +1,6 @@
 package jerry.test.com.mvp.xchart.adapter;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
+
 public interface XChartAction {
 
     /**

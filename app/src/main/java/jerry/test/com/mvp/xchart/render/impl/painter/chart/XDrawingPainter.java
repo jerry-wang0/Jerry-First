@@ -39,9 +39,6 @@ import static cn.nextop.erebor.mid.common.glossary.chart.XSegment.SegmentExtenda
 import static cn.nextop.erebor.mid.common.glossary.chart.XSegment.SegmentExtendable.kReverse;
 
 
-/**
- * Created by wanggl on 2016/12/2.
- */
 public class XDrawingPainter extends AbstractXPainter {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(XDrawingPainter.class);

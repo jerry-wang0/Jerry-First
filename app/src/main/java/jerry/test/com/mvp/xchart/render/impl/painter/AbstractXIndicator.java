@@ -33,9 +33,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartThe
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.INDICATOR_CURSOR_Y;
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartTheme.INDICATOR_CURSOR_Y_SPACE;
 
-/**
- * Created by Jingqi Xu on 9/8/15.
- */
+
 public abstract class AbstractXIndicator extends AbstractXPainter {
     //
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractXIndicator.class);

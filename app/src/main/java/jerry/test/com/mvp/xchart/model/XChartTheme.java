@@ -31,9 +31,6 @@ import static cn.nextop.erebor.mid.common.glossary.chart.IndicatorType.MACD;
 import static cn.nextop.erebor.mid.common.glossary.chart.IndicatorType.RSI;
 import static cn.nextop.erebor.mid.common.glossary.chart.IndicatorType.SMA;
 
-/**
- * Created by Jingqi Xu on 8/28/15.
- */
 public class XChartTheme {
     //
     public static String ZOOM_STEP = "ZOOM_STEP";

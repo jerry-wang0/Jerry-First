@@ -33,9 +33,7 @@ import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.XChartAr
 import static cn.nextop.erebor.mid.app.mvc.support.widget.xchart.render.impl.area.XChartAreaImpl.valueOf;
 
 
-/**
- * Created by Jingqi Xu on 9/8/15.
- */
+
 public class XAreasPainter extends AbstractXPainter {
 
     /**

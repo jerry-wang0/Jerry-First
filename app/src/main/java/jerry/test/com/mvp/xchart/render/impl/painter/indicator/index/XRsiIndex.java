@@ -3,9 +3,7 @@ package jerry.test.com.mvp.xchart.render.impl.painter.indicator.index;
 import cn.nextop.erebor.mid.app.mvc.support.widget.xchart.model.XChartModel;
 import cn.nextop.erebor.mid.common.glossary.chart.IndicatorType;
 
-/**
- * Created by Jingqi Xu on 9/10/15.
- */
+
 public class XRsiIndex extends AbstractXIndex {
     //
     private double[] line0;
