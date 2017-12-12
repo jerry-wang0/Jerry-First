@@ -7,7 +7,36 @@ import java.util.Comparator;
  * @author Jingqi Xu
  */
 public final class Comparators {
-	
+
+	dependencies {
+		compile fileTree(dir: 'libs', include: ['*.jar'])
+		testCompile 'junit:junit:4.12'
+		compile 'com.android.support:design:23.3.0'
+		compile 'com.android.support:recyclerview-v7:23.3.0'
+
+		compile 'jp.wasabeef:blurry:2.0.2'
+		compile 'com.tictactec:ta-lib:0.4.0'
+		compile 'com.google.code.gson:gson:2.5'
+		compile 'net.danlew:android.joda:2.9.4'
+		compile 'com.google.dagger:dagger:2.0.2'
+		compile 'com.squareup.okhttp:okhttp:2.6.0'
+		compile 'joda-time:joda-time:2.9.4:no-tzdb'
+		compile 'org.slf4j:slf4j-android:1.6.1-RC1'
+		compile 'com.jakewharton:disklrucache:2.0.2'
+		compile 'com.flurry.android:analytics:6.3.0'
+		compile 'info.hoang8f:android-segmented:1.0.6'
+		compile 'com.kyleduo.switchbutton:library:1.4.1'
+		compile 'com.google.protobuf:protobuf-java:2.5.0'
+		compile 'org.androidannotations:androidannotations-api:3.3.2'
+		compile 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.0'
+		compile 'com.googlecode.concurrentlinkedhashmap:concurrentlinkedhashmap-lru:1.4.2'
+
+		apt "com.google.dagger:dagger-compiler:2.0.2"
+		apt "org.androidannotations:androidannotations:3.3.2"
+
+		provided 'com.google.code.findbugs:jsr305:3.0.1'
+		provided 'javax.annotation:javax.annotation-api:1.2'
+	}
 	/**
 	 * 
 	 */
