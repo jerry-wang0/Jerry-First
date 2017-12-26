@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/item_pricing_chart_filter_bar_portrait"
+        layout="@layout/widget_pricing_chart_filter_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#282e3b"
+        android:gravity="center_vertical"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_pricing_chart_open_price"
+            style="@style/white_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/item_pricing_chart_high_price"
+            style="@style/white_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/item_pricing_chart_low_price"
+            style="@style/white_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/item_pricing_chart_close_price"
+            style="@style/white_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ToggleButton
+                android:id="@+id/item_pricing_chart_show_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:drawableLeft="@drawable/price_chart_filter_toggle"
+                android:textOff="@string/pricing_chart_show_filter"
+                android:textOn="@string/pricing_chart_show_filter"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="right"
+                android:drawablePadding="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:visibility="gone"
+                android:checked="false"
+                android:background="@drawable/gray_light_corners_solid_bg"
+                />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartView
+                    android:id="@+id/item_pricing_chart_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent" />
+                <!--<cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartViewRedraw-->
+                    <!--android:id="@+id/item_pricing_chart_view_redraw"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp" />-->
+                <!--<cn.nextop.erebor.mid.app.mvc.support.widget.xchart.XChartViewRedraw-->
+                    <!--android:id="@+id/item_pricing_chart_view_redraw"-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:visibility="gone"-->
+                    <!--android:background="@android:color/transparent"/>-->
+            </FrameLayout>
+
+            <include
+                android:id="@+id/item_pricing_chart_land_setting_info"
+                layout="@layout/widget_pricing_trade_panel_setting_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone" />
+
+            <cn.nextop.erebor.mid.app.mvc.main.pricing.panel.EvaluatorPanel
+                android:id="@+id/item_pricing_chart_evaluator_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:visibility="gone"
+                widget:evenColor="@color/blueness"
+                widget:oddColor="@color/blueness_dark" />
+
+            <cn.nextop.erebor.mid.app.mvc.support.widget.trading.TradingConsole
+                android:id="@+id/item_pricing_chart_trading_console"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                />
+
+            <include
+                android:id="@+id/item_pricing_chart_filter_bar_landscape"
+                layout="@layout/widget_pricing_chart_filter_bar"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <include layout="@layout/widget_pricing_chart_line_edit_bar"/>
+        <cn.nextop.erebor.mid.app.mvc.main.pricing.panel.TradePanelMini
+            android:id="@+id/item_pricing_chart_trade_panel_mini"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone"
+            widget:evenColor="@color/blueness"
+            widget:oddColor="@color/blueness_dark" />
+    </LinearLayout>
+</LinearLayout>
